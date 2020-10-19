@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: BambooStalf.ma
-//Last modified: Mon, Oct 19, 2020 09:35:48 AM
+//Last modified: Mon, Oct 19, 2020 09:37:40 AM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -14,13 +14,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "68E3E84D-9643-858F-E088-239491FBD052";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -10.47394507429494 14.546425304866426 -2.5977670984855292 ;
-	setAttr ".r" -type "double3" -25.538352729783806 212.99999999998707 0 ;
+	setAttr ".t" -type "double3" 42.557693478324303 10.560903454522702 53.906842032436487 ;
+	setAttr ".r" -type "double3" 0.26164727022223061 404.59999999996091 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "56878909-8F4E-F473-5486-77B131634072";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 9.2904075820921292;
+	setAttr ".coi" 69.330704404176089;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
