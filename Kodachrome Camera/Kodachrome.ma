@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Kodachrome.ma
-//Last modified: Fri, Jan 29, 2021 10:10:23 AM
+//Last modified: Fri, Jan 29, 2021 10:11:46 AM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -16,15 +16,15 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "48EB846A-EB4B-42FB-DBA8-B689DC094D22";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -8.9269393020654739 9.4830531858094638 -8.0114345529852073 ;
-	setAttr ".r" -type "double3" 1409.6616478922001 4548.9999999993552 0 ;
+	setAttr ".t" -type "double3" 8.0414540960016616 -10.724703938085593 -9.9290928383408765 ;
+	setAttr ".r" -type "double3" 1478.6616478920705 4443.3999999992375 0 ;
 	setAttr ".rp" -type "double3" -1.7763568394002505e-15 0 0 ;
 	setAttr ".rpt" -type "double3" 3.3116172949548121e-15 1.2325951644078309e-32 -8.9354292258091956e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "9E7E8A74-3742-7C1E-B497-3BB8DF962CF9";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 14.236755610516344;
+	setAttr ".coi" 22.406766465032888;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
