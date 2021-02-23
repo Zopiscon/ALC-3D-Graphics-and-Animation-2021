@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
 //Name: Lightsaber.ma
-//Last modified: Tue, Feb 23, 2021 10:11:33 AM
+//Last modified: Tue, Feb 23, 2021 10:12:03 AM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -17,15 +17,15 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "3EC6062D-524E-60AE-5663-9DA1F92266B7";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 7.1004857867162672 1.9640559815385359 -10.492375990254901 ;
-	setAttr ".r" -type "double3" 1080.8616473175421 14570.999999971575 0 ;
+	setAttr ".t" -type "double3" 7.4532808505803763 24.464492283627131 -44.754608624012917 ;
+	setAttr ".r" -type "double3" 1055.0616473175417 14576.999999971549 0 ;
 	setAttr ".rp" -type "double3" -7.1942451995710144e-14 1.5942802633617248e-13 0 ;
 	setAttr ".rpt" -type "double3" -2.5180766920094172e-14 -9.697667019668332e-14 1.3137701642362641e-13 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "1A02B2A7-8049-DEA2-9C5D-228482D215A5";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 13.78570059890802;
+	setAttr ".coi" 52.872058210338928;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
